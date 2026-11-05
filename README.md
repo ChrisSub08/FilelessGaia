@@ -5,13 +5,26 @@
 
 ## 1\. Introduction
 
-**Gaïa** is a cybersecurity research and training project developed as part of **Orion**, an educational military cybersecurity initiative.
+**FilelessGaia** is a cybersecurity research and training project developed as part of **Orion**, an educational military cybersecurity initiative focused on strengthening the resilience of critical infrastructure, particularly healthcare institutions.
 
-Its name comes from Greek mythology. In the myth, Gaia sends a scorpion to kill Orion. This relationship inspired the project's naming and architecture: Gaïa represents the coordination component associated with the Orion training scenario.
+The project's name and architecture are inspired by Greek mythology.
 
-The project aims to support cybersecurity training by studying the architecture and characteristics of PowerShell-based backdoor threats, particularly in the context of defending sensitive infrastructure such as healthcare institutions.
+According to the myth, Gaia sends a scorpion to eliminate Orion. This story inspired the relationship between the two main components of this research scenario:
 
-Gaïa is developed as a controlled simulation of a command-and-control (C2) architecture, allowing students and authorized security personnel to study potential threats and improve defensive detection and incident response capabilities.
+- **Gaia (FilelessGaia):** The PowerShell-based backdoor simulation.
+- **Scorpius (FilelessScorpius):** The C# ransomware simulation.
+
+Just as Gaia sends the scorpion against Orion in mythology, FilelessGaia represents the initial component associated with the delivery of FilelessScorpius within the controlled Orion training scenario.
+
+The two projects are therefore designed as complementary components of the same cybersecurity research exercise.
+
+FilelessGaia focuses on studying PowerShell-based backdoor architectures, command-and-control concepts, and their associated detection challenges. FilelessScorpius represents the subsequent ransomware threat scenario.
+
+Together, they allow students and authorized security personnel to study a simulated cyberattack scenario from multiple defensive perspectives, including initial compromise indicators, endpoint monitoring, ransomware detection, incident investigation, and recovery preparedness.
+
+**The ultimate objective is not to facilitate attacks, but to help defenders understand, detect, investigate, and respond to threats targeting sensitive infrastructure.**
+
+Both projects are intended exclusively for controlled, isolated, and formally authorized cybersecurity training environments.
 
 ## 2\. Project Objectives
 
